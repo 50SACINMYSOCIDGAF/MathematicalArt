@@ -1,4 +1,4 @@
-# Meta Careers: Plus Sign Painting on a Catesian Plane Challenge (L4)
+# Meta Careers: Plus Sign Painting on a Cartesian Plane Challenge (L4)
 
 ## Problem Description
 
