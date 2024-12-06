@@ -3,6 +3,7 @@ from bisect import bisect_left, bisect_right, insort
 from collections import defaultdict
 
 
+
 def getPlusSignCount(N: int, L: List[int], D: str) -> int:
     horizontal = defaultdict(list)  # y: list of (x_start, x_end)
     vertical = defaultdict(list)  # x: list of (y_start, y_end)
@@ -86,7 +87,6 @@ def getPlusSignCount(N: int, L: List[int], D: str) -> int:
                 right = mid
             else:
                 left = mid + 1
-
         return False
 
     for y, segments in sorted_horizontal:
